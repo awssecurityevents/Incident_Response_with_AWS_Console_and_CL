@@ -60,7 +60,7 @@ As AWS CloudTrail logs API activity for [supported services](https://docs.aws.am
 
 For example, listing recent access denied attempts in AWS CloudTrail may indicate attempts to escalate privilege unsuccessfully. Note that some services such as Amazon S3 have their own logging, for example read more about [Amazon S3 server access logging](https://docs.aws.amazon.com/AmazonS3/latest/dev/ServerLogs.html). 
 
-You can enable AWS CloudTrail by following the [Automated Deployment of Detective Controls](https://github.com/securityroadshow/auto_deploy/blob/master/README.md) lab.
+You can enable AWS CloudTrail by following the [Automated Deployment of Detective Controls](https://github.com/awssecurityevents/Automated_Deployment_of_Detective_Controls) lab.
 
 #### 2.1.1 AWS Console (Run Queries in Amazon CloudWatch)
 
@@ -284,7 +284,7 @@ Delete policy from a group:
 
 A Amazon VPC that has [VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) enabled captures information about the IP traffic going to and from network interfaces in your Amazon VPC. 
 
-This log information may help you investigate how Amazon EC2 instances and other resources in your VPC are communicating, and what they are communicating with. You can follow the [Automated Deployment of VPC](https://github.com/securityroadshow/aws-well-architected-labs/blob/master/Security/200_Automated_Deployment_of_VPC/README.md) lab for creating a Amazon VPC with Flow Logs enabled.
+This log information may help you investigate how Amazon EC2 instances and other resources in your VPC are communicating, and what they are communicating with. You can follow the [Automated Deployment of VPC](https://github.com/awslabs/aws-well-architected-labs/tree/master/Security/200_Automated_Deployment_of_VPC) lab for creating a Amazon VPC with Flow Logs enabled.
 
 ### 3.1 Investigate Amazon VPC Flow Logs
 
