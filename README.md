@@ -14,7 +14,7 @@ The skills you learn will help you secure your workloads in alignment with the [
 
 ## Prerequisites
 
-* CloudTrail must already be enabled in your account and logging to CloudWatch Logs, follow the [Automated_Deployment_of_Detective_Controls](../Automated_Deployment_of_Detective_Controls/README.md) lab to enable.
+* CloudTrail must already be enabled in your account and logging to CloudWatch Logs, follow the [Automated_Deployment_of_Detective_Controls](https://github.com/awssecurityevents/Automated_Deployment_of_Detective_Controls) lab to enable.
 
 <BR>
 
